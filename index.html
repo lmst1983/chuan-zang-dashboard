@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="川藏南线 G318 公开路况、天气风险和官方通告驾驶舱" />
+    <title>川藏南线 · 实时路况驾驶舱</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="返回顶部">
+        <span class="brand-mark">318</span>
+        <span>
+          <strong>川藏南线驾驶舱</strong>
+          <small>CHENGDU → LHASA</small>
+        </span>
+      </a>
+      <div class="topbar-actions">
+        <span class="live-pill"><i></i>公开信息监测中</span>
+        <button id="refreshButton" class="refresh-button" type="button">刷新数据</button>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">G318 / SOUTHERN SICHUAN–TIBET ROUTE</p>
+          <h1>今天的川藏南线，<br /><span id="heroVerdict">需要逐段确认</span></h1>
+          <p id="heroSummary" class="hero-summary">正在读取公开路况与天气数据……</p>
+          <div class="hero-meta">
+            <span>数据生成：<b id="generatedAt">--</b></span>
+            <span>页面刷新倒计时：<b id="countdown">05:00</b></span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="sun"></div>
+          <svg viewBox="0 0 660 270" role="img">
+            <defs>
+              <linearGradient id="mountainA" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#d8e0d2" />
+                <stop offset="1" stop-color="#849385" />
+              </linearGradient>
+              <linearGradient id="mountainB" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#839488" />
+                <stop offset="1" stop-color="#34453e" />
+              </linearGradient>
+            </defs>
+            <path d="M0 220 L98 118 L145 160 L240 48 L300 145 L386 70 L465 150 L545 76 L660 218 Z" fill="url(#mountainA)" />
+            <path d="M0 238 L110 166 L192 218 L290 112 L375 205 L468 118 L560 195 L625 142 L660 170 L660 270 L0 270 Z" fill="url(#mountainB)" />
+            <path d="M205 88 L240 48 L274 101 L249 84 L235 96 L225 79 Z" fill="#f3f3e9" />
+            <path d="M514 109 L545 76 L578 119 L551 106 L539 117 L529 102 Z" fill="#f3f3e9" />
+            <path class="road-line" d="M28 239 C128 222, 168 250, 246 221 S376 180, 446 210 S557 239, 642 205" />
+          </svg>
+          <div class="altitude-label">折多山 · 东达山 · 业拉山 · 色季拉山</div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="路况摘要">
+        <article class="metric panel">
+          <span class="metric-icon risk">!</span>
+          <div><small>需关注路段</small><strong id="riskCount">--</strong></div>
+          <em>天气模型风险</em>
+        </article>
+        <article class="metric panel">
+          <span class="metric-icon notice">文</span>
+          <div><small>相关公开通告</small><strong id="noticeCount">--</strong></div>
+          <em>保留原文链接</em>
+        </article>
+        <article class="metric panel">
+          <span class="metric-icon source">源</span>
+          <div><small>来源可用</small><strong id="sourceCount">--</strong></div>
+          <em id="sourceSubline">正在检测</em>
+        </article>
+        <article class="metric panel">
+          <span class="metric-icon caution">核</span>
+          <div><small>出发建议</small><strong class="metric-word">人工复核</strong></div>
+          <em>12328 / 122</em>
+        </article>
+      </section>
+
+      <section class="route-panel panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ROUTE PULSE</p>
+            <h2>成都 → 拉萨路线脉冲</h2>
+          </div>
+          <div class="legend">
+            <span><i class="dot low"></i>较低</span>
+            <span><i class="dot medium"></i>注意</span>
+            <span><i class="dot high"></i>较高</span>
+            <span><i class="dot unknown"></i>待确认</span>
+          </div>
+        </div>
+        <div id="routeTrack" class="route-track" aria-label="川藏南线主要节点"></div>
+      </section>
+
+      <div class="content-grid">
+        <section class="weather-section panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">WEATHER WINDOWS</p>
+              <h2>沿线天气风险</h2>
+            </div>
+            <select id="riskFilter" aria-label="筛选风险级别">
+              <option value="all">全部节点</option>
+              <option value="high">只看较高风险</option>
+              <option value="medium">注意及以上</option>
+            </select>
+          </div>
+          <p class="section-note">天气为城镇坐标预测，不代表垭口实况；翻山前需再次确认。</p>
+          <div id="weatherGrid" class="weather-grid"></div>
+        </section>
+
+        <aside class="side-column">
+          <section class="notice-section panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">OFFICIAL BULLETINS</p>
+                <h2>官方通告</h2>
+              </div>
+              <span id="noticeFreshness" class="freshness">--</span>
+            </div>
+            <div id="noticeList" class="notice-list"></div>
+          </section>
+
+          <section class="source-section panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">SOURCE HEALTH</p>
+                <h2>数据源状态</h2>
+              </div>
+            </div>
+            <div id="sourceList" class="source-list"></div>
+          </section>
+
+          <section class="action-section panel">
+            <p class="eyebrow">BEFORE DEPARTURE</p>
+            <h2>出发前最后确认</h2>
+            <ol>
+              <li><span>01</span>向 <b>12328</b> 询问当天具体区间和放行时间</li>
+              <li><span>02</span>用高德或百度核对事故、拥堵和临时封路</li>
+              <li><span>03</span>到达当地后拨 <b>122</b> 核实交警临时管制</li>
+            </ol>
+            <div class="map-links">
+              <a href="https://ditu.amap.com/" target="_blank" rel="noreferrer">打开高德地图 ↗</a>
+              <a href="https://map.baidu.com/" target="_blank" rel="noreferrer">打开百度地图 ↗</a>
+            </div>
+          </section>
+        </aside>
+      </div>
+
+      <footer>
+        <p>本驾驶舱只汇总已公开信息，不构成道路畅通保证。山区突发落石、塌方和临时管制可能早于网络通告。</p>
+        <p>天气：Open-Meteo · 路况：四川省交通运输厅 / 西藏自治区交通运输厅公开页面</p>
+      </footer>
+    </main>
+
+    <template id="emptyTemplate">
+      <div class="empty-state">当前数据中没有匹配项目。</div>
+    </template>
+    <script src="data/dashboard.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
