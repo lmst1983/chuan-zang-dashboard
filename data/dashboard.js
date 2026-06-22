@@ -1,6 +1,6 @@
 window.DASHBOARD_DATA = {
   "schema_version": 1,
-  "generated_at": "2026-06-22T18:25:50+08:00",
+  "generated_at": "2026-06-22T18:28:56+08:00",
   "route": [
     {
       "name": "成都",
@@ -330,7 +330,7 @@ window.DASHBOARD_DATA = {
       "name": "Open-Meteo 沿线天气",
       "category": "weather",
       "status": "ok",
-      "checked_at": "2026-06-22T18:25:43+08:00",
+      "checked_at": "2026-06-22T18:28:27+08:00",
       "message": "13 个城镇坐标的当前天气与当日预测已更新",
       "url": "https://open-meteo.com/"
     },
@@ -338,7 +338,7 @@ window.DASHBOARD_DATA = {
       "name": "西藏自治区交通运输厅",
       "category": "road",
       "status": "stale",
-      "checked_at": "2026-06-22T18:25:50+08:00",
+      "checked_at": "2026-06-22T18:28:31+08:00",
       "published_at": "2026-04-20",
       "message": "最新公开路网通告发布于 2026-04-20，距今 63 天；不能代表今日实时路况",
       "url": "https://jtt.xizang.gov.cn/bsfw/cxfw/202604/t20260420_535828.html"
@@ -346,9 +346,9 @@ window.DASHBOARD_DATA = {
     {
       "name": "四川省交通运输厅路况页",
       "category": "road",
-      "status": "partial",
-      "checked_at": "2026-06-22T18:25:50+08:00",
-      "message": "页面可访问（页面标注生成时间 2026-03-16 11:02:41），但实时接口限制外部 IP 自动读取",
+      "status": "error",
+      "checked_at": "2026-06-22T18:28:56+08:00",
+      "message": "本次更新失败：URLError（<urlopen error [Errno 101] Network is unreachable>）",
       "url": "https://jtt.sc.gov.cn/jtt/c101919/speed_jk.shtml"
     }
   ],
