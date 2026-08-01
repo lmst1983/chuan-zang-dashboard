@@ -1,6 +1,6 @@
 window.DASHBOARD_DATA = {
   "schema_version": 1,
-  "generated_at": "2026-08-01T15:03:29+08:00",
+  "generated_at": "2026-08-01T17:32:39+08:00",
   "route": [
     {
       "name": "成都",
@@ -10,12 +10,12 @@ window.DASHBOARD_DATA = {
       "risk": "high",
       "risk_reason": "强降水或大风风险",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 28.3,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed": 9.9,
-        "description": "阴天"
+        "time": "2026-08-01T17:30",
+        "temperature": 25.1,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "wind_speed": 11.1,
+        "description": "小毛毛雨"
       },
       "daily": {
         "weather_code": 95,
@@ -31,15 +31,15 @@ window.DASHBOARD_DATA = {
       "lat": 29.9805,
       "lon": 103.0133,
       "note": "雨城",
-      "risk": "high",
-      "risk_reason": "存在雷暴信号",
+      "risk": "medium",
+      "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 27.4,
-        "precipitation": 0.6,
-        "weather_code": 96,
-        "wind_speed": 10.3,
-        "description": "雷暴伴冰雹"
+        "time": "2026-08-01T17:30",
+        "temperature": 27.6,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "wind_speed": 4.9,
+        "description": "小毛毛雨"
       },
       "daily": {
         "weather_code": 95,
@@ -58,11 +58,11 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 18.4,
+        "time": "2026-08-01T17:30",
+        "temperature": 16.8,
         "precipitation": 0.3,
         "weather_code": 55,
-        "wind_speed": 6.1,
+        "wind_speed": 4.4,
         "description": "较强毛毛雨"
       },
       "daily": {
@@ -79,15 +79,15 @@ window.DASHBOARD_DATA = {
       "lat": 30.0027,
       "lon": 101.4911,
       "note": "高原路段",
-      "risk": "high",
-      "risk_reason": "存在雷暴信号",
+      "risk": "medium",
+      "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 14.1,
-        "precipitation": 0.3,
-        "weather_code": 95,
-        "wind_speed": 10.8,
-        "description": "雷暴"
+        "time": "2026-08-01T17:30",
+        "temperature": 13.8,
+        "precipitation": 0.0,
+        "weather_code": 3,
+        "wind_speed": 7.7,
+        "description": "阴天"
       },
       "daily": {
         "weather_code": 95,
@@ -106,12 +106,12 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 25.7,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "wind_speed": 8.8,
-        "description": "小毛毛雨"
+        "time": "2026-08-01T17:30",
+        "temperature": 25.2,
+        "precipitation": 0.3,
+        "weather_code": 55,
+        "wind_speed": 2.8,
+        "description": "较强毛毛雨"
       },
       "daily": {
         "weather_code": 95,
@@ -127,15 +127,15 @@ window.DASHBOARD_DATA = {
       "lat": 29.996,
       "lon": 100.2696,
       "note": "高海拔",
-      "risk": "high",
-      "risk_reason": "存在雷暴信号",
+      "risk": "medium",
+      "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 13.9,
-        "precipitation": 0.4,
-        "weather_code": 95,
-        "wind_speed": 10.4,
-        "description": "雷暴"
+        "time": "2026-08-01T17:30",
+        "temperature": 13.1,
+        "precipitation": 0.3,
+        "weather_code": 55,
+        "wind_speed": 1.2,
+        "description": "较强毛毛雨"
       },
       "daily": {
         "weather_code": 95,
@@ -154,12 +154,12 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 25.8,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed": 3.6,
-        "description": "阴天"
+        "time": "2026-08-01T17:30",
+        "temperature": 22.4,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "wind_speed": 3.2,
+        "description": "小毛毛雨"
       },
       "daily": {
         "weather_code": 53,
@@ -178,11 +178,11 @@ window.DASHBOARD_DATA = {
       "risk": "high",
       "risk_reason": "存在雷暴信号",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 17.9,
-        "precipitation": 0.1,
+        "time": "2026-08-01T17:30",
+        "temperature": 13.4,
+        "precipitation": 1.1,
         "weather_code": 95,
-        "wind_speed": 5.2,
+        "wind_speed": 3.9,
         "description": "雷暴"
       },
       "daily": {
@@ -202,11 +202,11 @@ window.DASHBOARD_DATA = {
       "risk": "high",
       "risk_reason": "存在雷暴信号",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 15.8,
-        "precipitation": 0.8,
+        "time": "2026-08-01T17:30",
+        "temperature": 15.5,
+        "precipitation": 1.1,
         "weather_code": 95,
-        "wind_speed": 4.2,
+        "wind_speed": 2.4,
         "description": "雷暴"
       },
       "daily": {
@@ -226,12 +226,12 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 23.4,
-        "precipitation": 0.2,
-        "weather_code": 53,
-        "wind_speed": 3.5,
-        "description": "毛毛雨"
+        "time": "2026-08-01T17:30",
+        "temperature": 18.2,
+        "precipitation": 0.5,
+        "weather_code": 80,
+        "wind_speed": 1.8,
+        "description": "阵雨"
       },
       "daily": {
         "weather_code": 95,
@@ -250,12 +250,12 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 20.1,
-        "precipitation": 0.3,
-        "weather_code": 55,
-        "wind_speed": 5.7,
-        "description": "较强毛毛雨"
+        "time": "2026-08-01T17:30",
+        "temperature": 19.3,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "wind_speed": 3.5,
+        "description": "小毛毛雨"
       },
       "daily": {
         "weather_code": 81,
@@ -274,11 +274,11 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 18.1,
+        "time": "2026-08-01T17:30",
+        "temperature": 16.3,
         "precipitation": 0.1,
         "weather_code": 51,
-        "wind_speed": 4.3,
+        "wind_speed": 2.1,
         "description": "小毛毛雨"
       },
       "daily": {
@@ -298,12 +298,12 @@ window.DASHBOARD_DATA = {
       "risk": "high",
       "risk_reason": "强降水或大风风险",
       "current": {
-        "time": "2026-08-01T15:00",
-        "temperature": 16.6,
-        "precipitation": 0.1,
-        "weather_code": 51,
+        "time": "2026-08-01T17:30",
+        "temperature": 18.5,
+        "precipitation": 0.0,
+        "weather_code": 1,
         "wind_speed": 1.1,
-        "description": "小毛毛雨"
+        "description": "大部晴朗"
       },
       "daily": {
         "weather_code": 95,
@@ -330,7 +330,7 @@ window.DASHBOARD_DATA = {
       "name": "Open-Meteo 沿线天气",
       "category": "weather",
       "status": "ok",
-      "checked_at": "2026-08-01T15:02:45+08:00",
+      "checked_at": "2026-08-01T17:31:34+08:00",
       "message": "13 个城镇坐标的当前天气与当日预测已更新",
       "url": "https://open-meteo.com/"
     },
@@ -338,7 +338,7 @@ window.DASHBOARD_DATA = {
       "name": "西藏自治区交通运输厅",
       "category": "road",
       "status": "stale",
-      "checked_at": "2026-08-01T15:03:04+08:00",
+      "checked_at": "2026-08-01T17:32:14+08:00",
       "published_at": "2026-04-20",
       "message": "最新公开路网通告发布于 2026-04-20，距今 103 天；不能代表今日实时路况",
       "url": "https://jtt.xizang.gov.cn/bsfw/cxfw/202604/t20260420_535828.html"
@@ -347,7 +347,7 @@ window.DASHBOARD_DATA = {
       "name": "四川省交通运输厅路况页",
       "category": "road",
       "status": "error",
-      "checked_at": "2026-08-01T15:03:29+08:00",
+      "checked_at": "2026-08-01T17:32:39+08:00",
       "message": "本次更新失败：URLError（<urlopen error [Errno 101] Network is unreachable>）",
       "url": "https://jtt.sc.gov.cn/jtt/c101919/speed_jk.shtml"
     }
