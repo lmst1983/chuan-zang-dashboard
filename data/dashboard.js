@@ -1,6 +1,6 @@
 window.DASHBOARD_DATA = {
   "schema_version": 1,
-  "generated_at": "2026-11-16T08:50:09+08:00",
+  "generated_at": "2026-11-16T15:44:09+08:00",
   "route": [
     {
       "name": "成都",
@@ -10,20 +10,20 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 12.0,
+        "time": "2026-11-16T15:30",
+        "temperature": 14.2,
         "precipitation": 0.0,
         "weather_code": 3,
-        "wind_speed": 7.2,
+        "wind_speed": 7.3,
         "description": "阴天"
       },
       "daily": {
-        "weather_code": 53,
+        "weather_code": 61,
         "temperature_max": 14.4,
-        "temperature_min": 10.7,
-        "precipitation_sum": 1.3,
-        "precipitation_probability_max": 73.0,
-        "wind_speed_max": 10.3
+        "temperature_min": 10.5,
+        "precipitation_sum": 2.3,
+        "precipitation_probability_max": 98.0,
+        "wind_speed_max": 11.2
       }
     },
     {
@@ -34,18 +34,18 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 12.3,
+        "time": "2026-11-16T15:30",
+        "temperature": 13.6,
         "precipitation": 0.0,
         "weather_code": 3,
-        "wind_speed": 2.5,
+        "wind_speed": 4.8,
         "description": "阴天"
       },
       "daily": {
-        "weather_code": 53,
-        "temperature_max": 14.0,
+        "weather_code": 51,
+        "temperature_max": 14.1,
         "temperature_min": 11.3,
-        "precipitation_sum": 3.1,
+        "precipitation_sum": 2.5,
         "precipitation_probability_max": 93.0,
         "wind_speed_max": 5.7
       }
@@ -58,20 +58,20 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 2.9,
-        "precipitation": 0.0,
-        "weather_code": 3,
-        "wind_speed": 1.9,
-        "description": "阴天"
+        "time": "2026-11-16T15:30",
+        "temperature": 4.7,
+        "precipitation": 0.1,
+        "weather_code": 51,
+        "wind_speed": 2.8,
+        "description": "小毛毛雨"
       },
       "daily": {
-        "weather_code": 80,
-        "temperature_max": 5.3,
+        "weather_code": 53,
+        "temperature_max": 5.5,
         "temperature_min": 1.3,
-        "precipitation_sum": 6.9,
+        "precipitation_sum": 6.3,
         "precipitation_probability_max": 100.0,
-        "wind_speed_max": 4.0
+        "wind_speed_max": 5.0
       }
     },
     {
@@ -82,20 +82,20 @@ window.DASHBOARD_DATA = {
       "risk": "low",
       "risk_reason": "未见突出天气信号",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": -1.4,
+        "time": "2026-11-16T15:30",
+        "temperature": 9.8,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "wind_speed": 3.2,
-        "description": "大部晴朗"
+        "weather_code": 3,
+        "wind_speed": 13.7,
+        "description": "阴天"
       },
       "daily": {
         "weather_code": 85,
-        "temperature_max": 10.3,
-        "temperature_min": -3.7,
-        "precipitation_sum": 1.0,
+        "temperature_max": 9.9,
+        "temperature_min": -4.1,
+        "precipitation_sum": 1.4,
         "precipitation_probability_max": 41.0,
-        "wind_speed_max": 18.8
+        "wind_speed_max": 17.3
       }
     },
     {
@@ -106,20 +106,20 @@ window.DASHBOARD_DATA = {
       "risk": "low",
       "risk_reason": "未见突出天气信号",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 6.8,
+        "time": "2026-11-16T15:30",
+        "temperature": 20.1,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "wind_speed": 1.0,
-        "description": "晴朗"
+        "weather_code": 2,
+        "wind_speed": 11.2,
+        "description": "局部多云"
       },
       "daily": {
         "weather_code": 51,
-        "temperature_max": 20.5,
-        "temperature_min": 2.5,
-        "precipitation_sum": 0.1,
-        "precipitation_probability_max": 27.0,
-        "wind_speed_max": 16.0
+        "temperature_max": 20.1,
+        "temperature_min": 1.9,
+        "precipitation_sum": 0.4,
+        "precipitation_probability_max": 43.0,
+        "wind_speed_max": 13.7
       }
     },
     {
@@ -130,20 +130,20 @@ window.DASHBOARD_DATA = {
       "risk": "low",
       "risk_reason": "未见突出天气信号",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 0.6,
+        "time": "2026-11-16T15:30",
+        "temperature": 8.6,
         "precipitation": 0.0,
-        "weather_code": 0,
-        "wind_speed": 6.7,
-        "description": "晴朗"
+        "weather_code": 2,
+        "wind_speed": 24.3,
+        "description": "局部多云"
       },
       "daily": {
-        "weather_code": 71,
-        "temperature_max": 9.4,
-        "temperature_min": -1.7,
-        "precipitation_sum": 0.5,
-        "precipitation_probability_max": 37.0,
-        "wind_speed_max": 25.2
+        "weather_code": 51,
+        "temperature_max": 9.3,
+        "temperature_min": -2.4,
+        "precipitation_sum": 1.0,
+        "precipitation_probability_max": 53.0,
+        "wind_speed_max": 24.5
       }
     },
     {
@@ -154,20 +154,20 @@ window.DASHBOARD_DATA = {
       "risk": "low",
       "risk_reason": "未见突出天气信号",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 8.8,
+        "time": "2026-11-16T15:30",
+        "temperature": 17.5,
         "precipitation": 0.0,
-        "weather_code": 1,
-        "wind_speed": 0.2,
-        "description": "大部晴朗"
+        "weather_code": 3,
+        "wind_speed": 6.5,
+        "description": "阴天"
       },
       "daily": {
-        "weather_code": 51,
-        "temperature_max": 18.0,
-        "temperature_min": 6.2,
-        "precipitation_sum": 0.3,
-        "precipitation_probability_max": 51.0,
-        "wind_speed_max": 9.3
+        "weather_code": 45,
+        "temperature_max": 17.7,
+        "temperature_min": 2.8,
+        "precipitation_sum": 0.0,
+        "precipitation_probability_max": 39.0,
+        "wind_speed_max": 9.0
       }
     },
     {
@@ -178,20 +178,20 @@ window.DASHBOARD_DATA = {
       "risk": "low",
       "risk_reason": "未见突出天气信号",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": -3.2,
+        "time": "2026-11-16T15:30",
+        "temperature": 8.4,
         "precipitation": 0.0,
-        "weather_code": 45,
-        "wind_speed": 3.4,
-        "description": "有雾"
+        "weather_code": 1,
+        "wind_speed": 23.7,
+        "description": "大部晴朗"
       },
       "daily": {
-        "weather_code": 71,
-        "temperature_max": 8.6,
-        "temperature_min": -4.6,
-        "precipitation_sum": 0.4,
-        "precipitation_probability_max": 22.0,
-        "wind_speed_max": 26.4
+        "weather_code": 51,
+        "temperature_max": 8.5,
+        "temperature_min": -5.0,
+        "precipitation_sum": 0.3,
+        "precipitation_probability_max": 29.0,
+        "wind_speed_max": 27.1
       }
     },
     {
@@ -202,20 +202,20 @@ window.DASHBOARD_DATA = {
       "risk": "low",
       "risk_reason": "未见突出天气信号",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": -0.3,
+        "time": "2026-11-16T15:30",
+        "temperature": 6.9,
         "precipitation": 0.0,
-        "weather_code": 45,
-        "wind_speed": 7.8,
-        "description": "有雾"
+        "weather_code": 0,
+        "wind_speed": 17.6,
+        "description": "晴朗"
       },
       "daily": {
         "weather_code": 51,
-        "temperature_max": 6.9,
-        "temperature_min": -1.9,
+        "temperature_max": 7.0,
+        "temperature_min": -2.2,
         "precipitation_sum": 0.1,
-        "precipitation_probability_max": 25.0,
-        "wind_speed_max": 19.0
+        "precipitation_probability_max": 53.0,
+        "wind_speed_max": 17.9
       }
     },
     {
@@ -223,23 +223,23 @@ window.DASHBOARD_DATA = {
       "lat": 30.0532,
       "lon": 96.9178,
       "note": "业拉山",
-      "risk": "low",
-      "risk_reason": "未见突出天气信号",
+      "risk": "medium",
+      "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 6.8,
+        "time": "2026-11-16T15:30",
+        "temperature": 11.8,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "wind_speed": 1.9,
-        "description": "局部多云"
+        "weather_code": 1,
+        "wind_speed": 9.9,
+        "description": "大部晴朗"
       },
       "daily": {
-        "weather_code": 80,
+        "weather_code": 55,
         "temperature_max": 12.3,
-        "temperature_min": 2.5,
-        "precipitation_sum": 4.8,
-        "precipitation_probability_max": 41.0,
-        "wind_speed_max": 10.6
+        "temperature_min": 2.7,
+        "precipitation_sum": 5.0,
+        "precipitation_probability_max": 60.0,
+        "wind_speed_max": 10.5
       }
     },
     {
@@ -250,20 +250,20 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 6.3,
+        "time": "2026-11-16T15:30",
+        "temperature": 10.9,
         "precipitation": 0.0,
-        "weather_code": 2,
-        "wind_speed": 2.3,
-        "description": "局部多云"
+        "weather_code": 3,
+        "wind_speed": 3.3,
+        "description": "阴天"
       },
       "daily": {
         "weather_code": 51,
-        "temperature_max": 10.9,
-        "temperature_min": 5.3,
-        "precipitation_sum": 1.2,
-        "precipitation_probability_max": 92.0,
-        "wind_speed_max": 3.1
+        "temperature_max": 11.1,
+        "temperature_min": 4.7,
+        "precipitation_sum": 1.5,
+        "precipitation_probability_max": 100.0,
+        "wind_speed_max": 4.1
       }
     },
     {
@@ -274,20 +274,20 @@ window.DASHBOARD_DATA = {
       "risk": "medium",
       "risk_reason": "降水或风力需关注",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 2.7,
-        "precipitation": 0.1,
-        "weather_code": 51,
-        "wind_speed": 2.2,
-        "description": "小毛毛雨"
+        "time": "2026-11-16T15:30",
+        "temperature": 8.6,
+        "precipitation": 0.2,
+        "weather_code": 53,
+        "wind_speed": 4.4,
+        "description": "毛毛雨"
       },
       "daily": {
         "weather_code": 80,
         "temperature_max": 9.2,
-        "temperature_min": 2.2,
-        "precipitation_sum": 17.5,
-        "precipitation_probability_max": 86.0,
-        "wind_speed_max": 4.8
+        "temperature_min": 1.5,
+        "precipitation_sum": 14.0,
+        "precipitation_probability_max": 100.0,
+        "wind_speed_max": 4.9
       }
     },
     {
@@ -298,20 +298,20 @@ window.DASHBOARD_DATA = {
       "risk": "low",
       "risk_reason": "未见突出天气信号",
       "current": {
-        "time": "2026-11-16T08:45",
-        "temperature": 3.2,
+        "time": "2026-11-16T15:30",
+        "temperature": 12.8,
         "precipitation": 0.0,
         "weather_code": 0,
-        "wind_speed": 0.9,
+        "wind_speed": 18.3,
         "description": "晴朗"
       },
       "daily": {
-        "weather_code": 3,
+        "weather_code": 2,
         "temperature_max": 12.9,
-        "temperature_min": 1.9,
+        "temperature_min": 1.8,
         "precipitation_sum": 0.0,
-        "precipitation_probability_max": 2.0,
-        "wind_speed_max": 19.9
+        "precipitation_probability_max": 4.0,
+        "wind_speed_max": 19.1
       }
     }
   ],
@@ -321,7 +321,7 @@ window.DASHBOARD_DATA = {
       "name": "Open-Meteo 沿线天气",
       "category": "weather",
       "status": "ok",
-      "checked_at": "2026-11-16T08:49:18+08:00",
+      "checked_at": "2026-11-16T15:43:18+08:00",
       "message": "13 个城镇坐标的当前天气与当日预测已更新",
       "url": "https://open-meteo.com/"
     },
@@ -329,7 +329,7 @@ window.DASHBOARD_DATA = {
       "name": "西藏自治区交通运输厅",
       "category": "road",
       "status": "error",
-      "checked_at": "2026-11-16T08:49:43+08:00",
+      "checked_at": "2026-11-16T15:43:44+08:00",
       "message": "本次更新失败：URLError（<urlopen error [Errno 101] Network is unreachable>）",
       "url": "https://jtt.xizang.gov.cn/bsfw/cxfw/"
     },
@@ -337,7 +337,7 @@ window.DASHBOARD_DATA = {
       "name": "四川省交通运输厅路况页",
       "category": "road",
       "status": "error",
-      "checked_at": "2026-11-16T08:50:09+08:00",
+      "checked_at": "2026-11-16T15:44:09+08:00",
       "message": "本次更新失败：URLError（<urlopen error [Errno 101] Network is unreachable>）",
       "url": "https://jtt.sc.gov.cn/jtt/c101919/speed_jk.shtml"
     }
