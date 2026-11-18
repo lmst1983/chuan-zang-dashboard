@@ -1,6 +1,6 @@
 window.DASHBOARD_DATA = {
   "schema_version": 1,
-  "generated_at": "2026-11-18T09:48:21+08:00",
+  "generated_at": "2026-11-18T17:52:15+08:00",
   "route": [
     {
       "name": "成都",
@@ -321,7 +321,7 @@ window.DASHBOARD_DATA = {
       "name": "Open-Meteo 沿线天气",
       "category": "weather",
       "status": "error",
-      "checked_at": "2026-11-18T09:47:30+08:00",
+      "checked_at": "2026-11-18T17:51:46+08:00",
       "message": "本次更新失败：URLError（<urlopen error _ssl.c:994: The handshake operation timed out>）",
       "url": "https://open-meteo.com/"
     },
@@ -329,15 +329,15 @@ window.DASHBOARD_DATA = {
       "name": "西藏自治区交通运输厅",
       "category": "road",
       "status": "error",
-      "checked_at": "2026-11-18T09:47:56+08:00",
-      "message": "本次更新失败：URLError（<urlopen error [Errno 101] Network is unreachable>）",
+      "checked_at": "2026-11-18T17:51:50+08:00",
+      "message": "本次更新失败：ValueError（未在西藏交通运输厅列表中找到路网运行通告）",
       "url": "https://jtt.xizang.gov.cn/bsfw/cxfw/"
     },
     {
       "name": "四川省交通运输厅路况页",
       "category": "road",
       "status": "error",
-      "checked_at": "2026-11-18T09:48:21+08:00",
+      "checked_at": "2026-11-18T17:52:15+08:00",
       "message": "本次更新失败：URLError（<urlopen error [Errno 101] Network is unreachable>）",
       "url": "https://jtt.sc.gov.cn/jtt/c101919/speed_jk.shtml"
     }
